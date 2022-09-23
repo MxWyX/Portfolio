@@ -1,0 +1,7 @@
+
+@media screen and (min-width:640px) {
+  /* if the screen is full sized then make the main page a flex container to create tiles */
+  main {
+    display: flex;
+  }
+}
