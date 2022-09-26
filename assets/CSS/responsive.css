@@ -4,4 +4,8 @@
   main {
     display: flex;
   }
+
+  .background {
+    max-width: 100px;
+  }
 }
