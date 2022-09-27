@@ -11,7 +11,7 @@ main {
   margin: 0 auto;
 }
 
-.port {
+.roboto {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -21,6 +21,11 @@ main {
   text-decoration: none;
   color: black;
   text-align: center;
+}
+
+.back-banner a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 /* Hero start */
@@ -46,10 +51,6 @@ main {
 }
 
 .hero-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   position: absolute;
   text-align: center;
   margin: 1rem auto;
@@ -75,7 +76,7 @@ main {
 }
 
 .hero-text a:hover {
-  text-shadow: 5px 5px #000;
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.5);
 }
 /* Hero end */
 
@@ -152,6 +153,6 @@ main {
 
 .copyright {
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 /* Contact end */
