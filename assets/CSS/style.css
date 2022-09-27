@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.port {
+  font-family: 'Roboto', sans-serif;
+}
+
+.back-banner {
+  background-color: grey;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+/* Hero start */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.social-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: black;
+  padding: 0.5rem 0.25rem;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  margin: 1rem auto;
+  width: 100%;
+  top: 20%;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hero p {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.hero button{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+/* Hero end */
+
+/* Info start */
+.info {
+  width: 100%;
+  background-color: white;
+  margin: 0;
+}
+
+.info-container {
+  padding: 2rem;
+}
+
+.info-container h2 {
+  padding-bottom: 1rem ;
+}
+
+.info-container p {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+/* Info end */
+
+/* Portfolio start */
+.portfolio-container {
+  background-color: slategray;
+}
+
+.portfolio-container h3 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.project {
+  margin: 1rem;
+  background-color: white;
+}
+
+
+.project img {
+  width: 100%;
+}
+
+.project-info {
+  padding: 1rem;
+  position: relative;
+}
+
+.project-info p {
+  padding-bottom: 0.5rem;
+}
+
+.project-info::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  top: 0;
+  height: 0.5rem;
+  border-bottom: 2px inset grey;
+}
+
+.project-info h4 {
+  padding-bottom: 0.5rem;
+}
+/* Portfolio end */
+
+/* Contact start */
+
+.contact {
+  background-color: slategray;
+}
+
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* Contact end */

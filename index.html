@@ -4,86 +4,93 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/CSS/style.css">
   <link rel="stylesheet" href="./assets/CSS/responsive.css">
-  <title>Max-zone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0a65b58dc5.js" crossorigin="anonymous"></script>
+  <title>Portfolio - Max Wykes</title>
 </head>
 <body>
   <header>
-    <nav>
-      <!-- Menu in top right corner? Nav not really needed as small site? -->
-    </nav>
+
   </header>
-  <!-- the icons above will slightly overlap the main background so each sectio needs to be floating over it -->
-  <main>
+  <main class='port'>
     <!-- Hero start -->
     <section class='hero'>
-      <picture class='background'>
-        <!-- Large image across header as a back drop to smaller icons -->
-        <source srcset='./assets/img/background-small.png' media='(max-width: 640px)'/>
-        <source srcset='./assets/img/background.png' />
-        <img src="./assets/img/background.jpg" alt=""/>
-      </picture>
-      <h1>My portfolio!</h1>
-      <section class='img-container'>
-        <!-- one large image of me with the three dogs in smaller images -->
-        <img class='main-img' src="./assets/img/max.png" alt="Me!">
-        <img class='dog-img' src="./assets/img/rossi.png" alt="Rossi">
-        <img class='dog-img' src="./assets/img/effy.png" alt="Effy">
-        <img class='dog-img' src="./assets/img/sage.png" alt="Sage">
+      <img src="./assets/img/hero-img.jpg" alt="My photo of the Whitsundays in Australia">
+      <section class='social-header'>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+      </section>
+      <section class='hero-text'>
+        <h1>I am Max Wykes</h1>
+        <p>I'm a Front-end Developer</p>
+        <a href="#contact"><button>Contact me</button></a>
       </section>
     </section>
     <!-- Hero end -->
-    <!-- About me start -->
-    <article class='info'>
-      <div>
-        <h2>About me!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos expedita alias aliquid at. At tenetur quis labore laboriosam. Esse veritatis recusandae deserunt perferendis voluptatum non reprehenderit, sint eius blanditiis dolor.</p>
-      </div>
-      <section class='dog-info'>
-        <div>
-          <h3>Rossi</h3>
-          <p>dog stuff</p>
-        </div>
-        <div>
-          <h3>Effy</h3>
-          <p>dog stuff</p>
-        </div>
-        <div>
-          <h3>Sage</h3>
-          <p>dog stuff</p>
-        </div>
+    <!-- Info start -->
+    <section class='info'>
+      <section class='info-container'>
+        <h2>Who are you?</h2>
+        <p>I am 24 years old, I've been a tailor, I've traded stocks and I've been a bee keeper. The next challenge for me, <span> Web-Design</span>!</p>
+        <h2>Why Web-Design?</h2>
+        <p>I wanted to start a career in web design as it combines my literal thinking and processing with my artist and design talents.</p>
       </section>
-    </article>
-    <!-- About me end -->
+    </section>
+    <!-- Info end -->
     <!-- Projects start -->
-    <section class='projects'>
-      <h2>Projects</h2>
-      <section class='project-container'>
+    <section class='portfolio-container'>
+      <h3>My Projects</h3>
+      <section class='portfolio'>
         <section class='project'>
-          <p>a project</p>
+          <a href="./assets/html/restro-site.html">
+          <img src="./assets/img/resto.JPG" alt="A snippet of the top of my resturaunt site."></a>
+          <div class='project-info'>
+            <h4>Vegan Restaurant</h4>
+            <p>This is a site I designed following a mockup designed on <a href="https://www.figma.com/community/file/1077384985779045508">Figma.</a></p>
+            <p>Skills: Reactive HTML, Following a desgin</p>
+            <p>Used: HTML, CSS</p>
+          </div>
         </section>
         <section class='project'>
-          <p>a project</p>
+          <a href="./assets/html/restro-site.html">
+          <img src="./assets/img/resto.JPG" alt=""></a>
+          <div class='project-info'>
+            <h4>Place holder</h4>
+            <p>Info</p>
+            <p>Skills:</p>
+            <p>Used: </p>
+          </div>
+        </section>
+        <section class='project'>
+          <a href="./assets/html/restro-site.html">
+          <img src="./assets/img/resto.JPG" alt=""></a>
+          <div class='project-info'>
+            <h4>Place holder</h4>
+            <p>Info</p>
+            <p>Skills:</p>
+            <p>Used: </p>
+          </div>
         </section>
       </section>
     </section>
     <!-- Projects end -->
-    <!-- DND start -->
-    <section>
-
-    </section>
-    <!-- DND end -->
-    <!-- Contact start -->
-    <footer>
-      <section class='contact-container'>
-        <section class='professional'>
-        </section>
-        <section class='casual'>
-        </section>
-      </section>
-    </footer>
-    <!-- Contact end -->
   </main>
+  <footer>
+  <!-- Contact start -->
+    <section class='contact'>
+      <section class='in-touch'>
+
+      </section>
+      <section class='message'>
+
+      </section>
+    </section>
+    <p class='copyright'>&copy; Max Wykes 2022</p>
+    <!-- Contact end -->
+  </footer>
 </body>
 </html>

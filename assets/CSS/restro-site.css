@@ -1,0 +1,617 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header,
+.hero,
+.specialities,
+.menu,
+.testimony,
+.experts {
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.section-title {
+  text-align: center;
+  margin: 2rem auto;
+  font-family: 'Rancho', cursive;
+  font-size: 4rem;
+  font-weight: lighter;
+}
+
+.section-title span{
+  display: block;
+  margin-top: 0.5rem;
+  color: #E76F51;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #2A9D8F;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 15px;
+}
+
+/* Header style start */
+header nav ul li {
+  display: none;
+}
+
+#logo {
+  display: inline;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-family: 'Rancho', cursive;
+}
+
+#burger-menu {
+  display: inline;
+  float: right;
+  font-size: 3rem;
+  padding-top: 1.5rem;
+}
+/* Header style end */
+
+
+/* Hero style start */
+.hero-info h1{
+  font-weight: lighter;
+  font-size: 3.5rem;
+  color: rgb(50, 50, 50);
+  margin: 3rem 0;
+}
+
+.vegana {
+  color: #2A9D8F;
+}
+
+#hero-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#hero-buttons :first-child {
+  background-color: #E76F51;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 5px 5px 15px #E76F51ec;
+  border-radius: 5px;
+  border: none;
+  margin-right: 15%;
+}
+
+#hero-buttons :last-child {
+  border: none;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.hero-info img {
+  margin: 3rem 0;
+}
+/* Hero style end */
+
+/* Specialities style start */
+.speciality-catagory {
+  color: #E76F51;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.speciality-catagory::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+.speciality-description {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+.speciality-title {
+  font-size: 2.6rem;
+  display: block;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.speciality-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.speciality-image {
+  box-shadow: 5px 5px 15px rgba(200, 200, 200, 0.8);
+}
+/* Specialities style end */
+
+/* Menu start */
+.menu-title {
+  font-size: 2.5rem;
+}
+
+.menu-item {
+  display: flex;
+  margin: 2rem 0;
+  position: relative;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.menu-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  border-bottom: 1px dashed black;
+}
+
+.menu-item:last-child:after {
+  border-bottom: none;
+}
+
+.menu-item img{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin: white 1rem;
+  margin-right: 1rem;
+}
+
+.menu-item section h3 {
+  margin-bottom: 1rem;
+}
+
+.menu-item section h3 span {
+  margin-left: 3rem;
+  font-weight: lighter;
+  color: #333;
+}
+
+.menu-item p {
+  color: #333;
+}
+/* Menu end */
+
+/* Reviews start */
+.testimony-hero {
+  position: relative;
+}
+
+.testimony-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  /*  */
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 100%;
+  font-weight: lighter;
+}
+
+.testimony-quote {
+  font-size: 6rem;
+}
+/* Reviews end */
+
+/* Experts start */
+.expert {
+  position: relative;
+  margin-bottom: 1rem;
+
+}
+
+.expert-info{
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 1.5rem auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.expert-info h3 {
+  margin: 0.5rem 0;
+}
+
+.expert-info p {
+  color: #333;
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.expert-socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 1rem auto;
+  color: #0A66C2;
+}
+
+/* This changes the color of all the children, seek help */
+.expert-socials :last-child {
+  color: #55ACEE; 
+}
+/* Experts end */
+
+/* Reservation start */
+.reservation {
+  position: relative;
+}
+
+.reservation-form-section {
+  position: absolute;
+  top: 30%;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 69.5%;
+}
+
+.reservation-form-section h2 {
+  color: white;
+  margin-bottom: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea {
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  border-radius: 3px;
+  border: none;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+textarea {
+  resize: none;
+  height: 0;
+  min-height: 3rem;
+  font-size: 1.5rem;
+}
+
+.half-input {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+}
+
+.form-input-half {
+  width: 50%;
+}
+
+.half-input :first-child {
+  margin-right: 1rem;
+}
+
+input[type=submit] {
+  align-self: flex-end;
+  font-size: 1rem;
+  width: 45%;
+}
+
+input[type=submit]:hover {
+  background-color: #E76F51;
+}
+/* reservation end */
+
+/* Footer style start */
+footer {
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.footer-info-p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-brand {
+  font-family: "Rancho", cursive;
+  font-size: 4rem;
+  display: block;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  font-size: 2.5rem;
+  margin: 1rem auto;
+}
+
+.footer-social a{
+  color: white;
+}
+
+.footer-title {
+  color: #E76F51;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+.footer-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 3;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  border-bottom: 1px solid white;
+  width: 55%;
+}
+
+.footer-times {
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.footer-times li {
+  padding-bottom: 1rem;
+}
+
+.footer-map {
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.footer-3 i {
+  font-size: 2rem;
+  margin: 0.25rem;
+}
+
+.direction {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+/* Footer style end */
+
+@media screen and (min-width: 640px) {
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  main {
+    padding: 0;
+  }
+/* Header start */
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav ul li {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  #burger-menu {
+    display: none;
+  }
+/* Header end */
+
+/* Hero start */
+  .hero {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .hero-info {
+    padding: 1rem;
+  }
+
+  .hero-info-block {
+    display: block;
+  }
+
+  #hero-buttons {
+    justify-content: flex-start;
+  }
+
+  .hero-info img {
+    margin-right: 7px;
+  }
+
+  #hero-image{
+    width: 375px;
+  }
+/* Hero end */
+
+/* Specialities start */
+  .specialities {
+    padding: 2rem;
+    background-color: #EFEFEF;
+  }
+
+  .speciality-item {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .speciality-image {
+    width: 375px;
+  }
+
+  .price {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .price span {
+    margin-bottom: 1rem;
+  }
+
+  .speciality-item:last-child .speciality-image{
+    order: 1;
+  }
+
+  .speciality-item:last-child .speciality-info{
+    order: 2;
+  }
+/* Specialities end */
+
+/* Menu start */
+  .menu-container {
+    display: flex;
+    padding: 2rem;
+  }
+
+  .menu-title {
+    text-align: center;
+  }
+
+  .menu-item {
+    padding: 0 1rem 2.5rem 1rem;
+  }
+
+  .menu-item::after {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .menu-item section h3 span {
+    margin-left: 0.25rem;
+  }
+/* Menu end */
+
+/* Experts start */
+  .expert {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .experts-container {
+    display: flex;
+    justify-content: space-around;
+  }
+/* Experts end */
+/* Reservation start */
+  .reservation {
+    margin-bottom: 5rem;
+  }
+  .reservation-form-section {
+    position: absolute;
+    top: 35px;
+    right: 65px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+    width: 35%;
+    height: 105%;
+    margin-bottom: 2rem;
+  }
+
+  .reservation-form-section h2 span {
+    font-size: 1rem;
+  }
+
+  .reservation-form-section h2 {
+    font-size: 2.5rem;
+    font-weight: light;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=number],
+  textarea {
+    margin-bottom: 1rem;
+    padding: 7px;
+    font-size: 1rem;
+  }
+
+  textarea {
+    height: 7rem;
+  }
+
+  input[type=submit] {
+    font-size: 1rem;
+  }
+/* reservation end */
+
+/* footer start */
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  }
+
+  .footer-1,
+  .footer-2,
+  .footer-3 {
+    flex: 1 1 350px;
+  }
+/* footer end */
+}

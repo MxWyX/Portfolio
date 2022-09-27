@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/CSS/responsive.css">
+  <title>Max-zone</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- Menu in top right corner? Nav not really needed as small site? -->
+    </nav>
+  </header>
+  <!-- the icons above will slightly overlap the main background so each sectio needs to be floating over it -->
+  <main>
+    <!-- Hero start -->
+    <section class='hero'>
+      <picture class='background'>
+        <!-- Large image across header as a back drop to smaller icons -->
+        <source srcset='./assets/img/background-small.png' media='(max-width: 640px)'/>
+        <source srcset='./assets/img/background.png' />
+        <img src="./assets/img/background.jpg" alt=""/>
+      </picture>
+      <h1>My portfolio!</h1>
+      <section class='img-container'>
+        <!-- one large image of me with the three dogs in smaller images -->
+        <img class='main-img' src="./assets/img/max.png" alt="Me!">
+        <img class='dog-img' src="./assets/img/rossi.png" alt="Rossi">
+        <img class='dog-img' src="./assets/img/effy.png" alt="Effy">
+        <img class='dog-img' src="./assets/img/sage.png" alt="Sage">
+      </section>
+    </section>
+    <!-- Hero end -->
+    <!-- About me start -->
+    <article class='info'>
+      <div>
+        <h2>About me!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos expedita alias aliquid at. At tenetur quis labore laboriosam. Esse veritatis recusandae deserunt perferendis voluptatum non reprehenderit, sint eius blanditiis dolor.</p>
+      </div>
+      <section class='dog-info'>
+        <div>
+          <h3>Rossi</h3>
+          <p>dog stuff</p>
+        </div>
+        <div>
+          <h3>Effy</h3>
+          <p>dog stuff</p>
+        </div>
+        <div>
+          <h3>Sage</h3>
+          <p>dog stuff</p>
+        </div>
+      </section>
+    </article>
+    <!-- About me end -->
+    <!-- Projects start -->
+    <section class='projects'>
+      <h2>Projects</h2>
+      <section class='project-container'>
+        <section class='project'>
+          <p>a project</p>
+        </section>
+        <section class='project'>
+          <p>a project</p>
+        </section>
+      </section>
+    </section>
+    <!-- Projects end -->
+    <!-- DND start -->
+    <section>
+
+    </section>
+    <!-- DND end -->
+    <!-- Contact start -->
+    <footer>
+      <section class='contact-container'>
+        <section class='professional'>
+        </section>
+        <section class='casual'>
+        </section>
+      </section>
+    </footer>
+    <!-- Contact end -->
+  </main>
+</body>
+</html>

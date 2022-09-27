@@ -1,11 +1,36 @@
 
-@media screen and (min-width:640px) {
-  /* if the screen is full sized then make the main page a flex container to create tiles */
-  main {
-    display: flex;
-  }
+@media screen and (min-width: 426px) {
 
-  .background {
-    max-width: 100px;
+/* Hero start */
+
+/* Hero end */
+
+/* Info start */
+/* Info end */
+
+/* Projects start */
+  .portfolio {
+    display: flex;
+    justify-content: space-around;
+    /* Make it 2 boxes per row only */
   }
+/* Projects end */
+}
+
+@media screen and (min-width: 769px){
+/* Hero start */
+
+/* Hero end */
+
+/* Info start */
+/* Info end */
+
+/* Projects start */
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  /* Unlimited boxes per row, depends on screen size */
+  flex-wrap: wrap;
+}
+/* Projects end */
 }
