@@ -7,7 +7,7 @@
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -15,6 +15,7 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+/* allows a banner to be put on project pages to navigate back to the porfolio page. */
 .back-banner {
   background-color: grey;
   text-decoration: none;
@@ -40,7 +41,15 @@ main {
   margin-bottom: 0;
 }
 
+.social-header a {
+  color: black;
+}
+
 .hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: absolute;
   text-align: center;
   margin: 1rem auto;
@@ -53,16 +62,20 @@ main {
   padding-bottom: 1rem;
 }
 
-.hero p {
+.hero-text p {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
 
-.hero button{
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
+.hero-text a{
+  text-decoration: none;
+  color: black;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+}
+
+.hero-text a:hover {
+  text-shadow: 5px 5px #000;
 }
 /* Hero end */
 
