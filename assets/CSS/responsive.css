@@ -30,7 +30,7 @@
   }
 
   .project {
-    flex: 1 1 200px;
+    flex: 1 1 300px;
 
   }
 /* Projects end */
@@ -72,26 +72,26 @@
     font-size: 2rem;
   }
 
-.hero-text h1 {
-  font-size: 6rem;
-}
+  .hero-text h1 {
+    font-size: 6rem;
+  }
 
-.hero-text p,
-.hero-text a {
-  font-size: 2rem;
-  padding-bottom: 1.5rem;
-}
+  .hero-text p,
+  .hero-text a {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
 /* Hero end */
 
 /* Info start */
 /* Info end */
 
 /* Projects start */
-.portfolio {
-  display: flex;
-  justify-content: space-around;
-  /* Unlimited boxes per row, depends on screen size */
-  /* flex-wrap: wrap; */
-}
+  .portfolio {
+    display: flex;
+    justify-content: space-around;
+    /* Unlimited boxes per row, depends on screen size */
+    flex-wrap: wrap;
+  }
 /* Projects end */
 }
