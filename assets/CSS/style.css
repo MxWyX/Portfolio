@@ -15,19 +15,6 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
-/* allows a banner to be put on project pages to navigate back to the porfolio page. */
-.back-banner {
-  background-color: grey;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-}
-
-.back-banner a:visited {
-  text-decoration: none;
-  color: black;
-}
-
 /* Hero start */
 .hero {
   position: relative;
@@ -43,6 +30,7 @@ main {
   right: 0;
   color: black;
   padding: 0.5rem 0.25rem;
+  margin-right: 0.5rem;
   margin-bottom: 0;
 }
 
@@ -147,12 +135,101 @@ main {
 
 /* Contact start */
 
+.footer-title {
+  font-size: 1rem;
+  padding: 0.5rem 0.25rem;
+}
+
+.footer-title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 0.5rem;
+  border-bottom: 2px inset rgba(0, 0, 0, 0.5);
+}
+
 .contact {
   background-color: slategray;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 0.5rem;
+  border-bottom: 2px inset rgba(0, 0, 0, 0.75);
+}
+
+.in-touch {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+.details {
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.details h5 {
+  position: relative;
+}
+
+.details p {
+  font-size: 1rem;
+  padding: 0.5rem 0.25rem 0 0.25rem;
+}
+
+.socials {
+  font-size: 3rem;
+  margin: 1rem 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.socials a {
+  color: black;
+}
+
+.message {
+  margin: 0 1rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+  color: grey;
+  font-size: 0.75rem;
+}
+
+button[type=submit] {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 5px;
 }
 
 .copyright {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
+  background-color: slategray;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 /* Contact end */

@@ -9,14 +9,12 @@
   .hero-text h1 {
     font-size: 4rem;
     padding-bottom: 3rem;
-    flex: 2 10 2rem;
 }
 
   .hero-text p,
   .hero-text a {
     font-size: 1.5rem;
     padding-bottom: 1.25rem;
-    flex: 1 10 1.5rem;
   }
 /* Hero end */
 
@@ -36,6 +34,36 @@
 
   }
 /* Projects end */
+
+/* Contact start */
+  .contact {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .in-touch,
+  .message {
+    width: 100%;
+  }
+
+  .in-touch {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socials {
+    justify-content: space-between;
+  }
+
+  .message {
+    margin: 1rem 0;
+  }
+
+  .message form {
+    margin: 0.5rem 2rem;
+  }
+/* Contact end */
+
 }
 
 @media screen and (min-width: 769px){
@@ -46,14 +74,12 @@
 
 .hero-text h1 {
   font-size: 6rem;
-  flex: 2 10 2rem;
 }
 
 .hero-text p,
 .hero-text a {
   font-size: 2rem;
   padding-bottom: 1.5rem;
-  flex: 1 10 2rem;
 }
 /* Hero end */
 

@@ -22,7 +22,8 @@
       <img src="./assets/img/hero-img.jpg" alt="My photo of the Whitsundays in Australia">
       <section class='social-header'>
         <a target='_blank' href="https://www.linkedin.com/in/maxwykes/"><i class="fa-brands fa-linkedin"></i></a>
-        <a target='_blank' href="https://github.com/MxWyX/Portfolio"><i class="fa-brands fa-github"></i></a>
+        <a target='_blank' href="https://github.com/MxWyX/Portfolio"><i class="fa-brands fa-square-github"></i></a>
+        <a target='_blank' href="https://twitter.com/MxWyX"><i class="fa-brands fa-square-twitter"></i></a>
       </section>
       <section class='hero-text'>
         <h1>I'm Max Wykes</h1>
@@ -35,7 +36,7 @@
     <section class='info'>
       <section class='info-container'>
         <h2>Who are you?</h2>
-        <p>I am 24 years old, I've been a tailor, I've traded stocks and I've been a bee keeper. The next challenge for me, <span> Web-Design</span>!</p>
+        <p>I am 24 years old, I've been a bee keeper, a tailor, and a stock trader. The next challenge for me, <span> Web-Design</span>!</p>
         <h2>Why Web-Design?</h2>
         <p>I wanted to start a career in web design as it combines my literal thinking and processing with my artist and design talents.</p>
       </section>
@@ -50,7 +51,7 @@
           <img src="./assets/img/resto.JPG" alt="A snippet of the top of my resturaunt site."></a>
           <div class='project-info'>
             <h4>Vegan Restaurant</h4>
-            <p>This is a site I designed following a mockup designed on <a href="https://www.figma.com/community/file/1077384985779045508">Figma.</a></p>
+            <p>This is a site I designed following a mockup designed on <a target='_blank' href="https://www.figma.com/community/file/1077384985779045508">Figma.</a></p>
             <p>Skills: Reactive HTML, Following a desgin</p>
             <p>Used: HTML, CSS</p>
           </div>
@@ -83,10 +84,28 @@
   <!-- Contact start -->
     <section id='contact' class='contact'>
       <section class='in-touch'>
-
+        <div class='details'>
+          <h5 class='footer-title'>Max Wykes</h5>
+          <p>max.wykes@gmail.com</p>
+          <p>+447923225004</p>
+        </div>
+        <div class='socials'>
+          <a target='_blank' href="https://www.linkedin.com/in/maxwykes/"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a target='_blank' href="https://github.com/MxWyX/Portfolio"><i class="fa-brands fa-github"></i></a>
+          <a target='_blank' href="https://twitter.com/MxWyX"><i class="fa-brands fa-twitter"></i></a>
+        </div>
       </section>
       <section class='message'>
-
+        <div>
+          <h5 class='footer-title'>Drop me a message:</h5>
+        </div>
+        <form name='contact' action="GET">
+          <input type="text" name='name' for='contact' id='name' placeholder='Name' required>
+          <input type="email" name='email' for='contact' id='email' placeholder='Email Address' required>
+          <input type="number" name='phone' for='contact' id='phone' placeholder='Phone Number' >
+          <textarea class='roboto' name="messgae" for='contact' id="message" cols="30" rows="10" required>Message</textarea>
+          <button type='submit'>Send</button>
+        </form>
       </section>
     </section>
     <p class='copyright'>&copy; Max Wykes 2022</p>
