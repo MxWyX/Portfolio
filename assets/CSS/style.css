@@ -108,6 +108,11 @@ main {
 
 .project img {
   width: 100%;
+  height: 55%;
+}
+
+.project-img {
+  margin: auto;
 }
 
 .project-info {

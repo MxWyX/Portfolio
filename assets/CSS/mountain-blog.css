@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 236, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+main {
+  width: 900px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+/* This will allow us to move things in respect to it rather than in respect to the body */
+.hero {
+  position: relative; 
+}
+
+/* alter the img within the feature id */
+#feature img {
+  width: 900px;
+}
+
+figure {
+  margin: 0;
+}
+
+.title {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  padding: 20px;
+  background-color: rgba(199, 199, 199, 0.65);
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.title p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+article {
+  padding: 10px 110px;
+}
+
+#article-figure img {
+  width: 300px;
+}
+
+#article-figure {
+  float: right;
+  margin-left: 15px;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+.tags {
+  padding: 20px 0px;
+}
+
+.tags span {
+  font-size: 12px;
+  background-color: #4e8098;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+  color: white;
+}
+
+footer {
+  border-top: 1px solid grey;
+  padding: 10px 0 20pc 0;
+}
+
+footer p {
+  text-align: center;
+}
