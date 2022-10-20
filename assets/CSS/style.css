@@ -15,6 +15,10 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
 /* Hero start */
 .hero {
   position: relative;
@@ -138,6 +142,26 @@ main {
 }
 /* Portfolio end */
 
+/* Game start */
+.game-container {
+  background-color: darkolivegreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game {
+  display: flex;
+
+}
+
+
+.play-area {
+  margin: 2rem;
+  background-color: black;
+}
+/* Game end */
+
 /* Contact start */
 .footer-title {
   font-size: 1rem;
@@ -174,7 +198,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .details {

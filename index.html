@@ -63,8 +63,8 @@
         <section class='project'>
           <div class='project-img'>
             <a target='_blank' href="./assets/html/hubble.html">
-            <img src="./assets/img/hubble.JPG" alt=""></a>
-        </div>
+            <img src="./assets/img/hubble.JPG" alt="An image of the Hubble Space Telescope"></a>
+          </div>
           <div class='project-info'>
             <h4>Spacecraft Cards</h4>
             <p>A flex box exercise creating cards that react to the page width.</p>
@@ -75,18 +75,39 @@
         <section class='project'>
           <div class='project-img'>
             <a target='_blank' href="./assets/html/mountain.html">
-            <img src="./assets/img/mountain-blog.JPG" alt=""></a>
+            <img src="./assets/img/mountain-blog.JPG" alt="A mountain range with lake infront"></a>
           </div>
           <div class='project-info'>
             <h4>Walkers blog</h4>
-            <p>A sample blog made us</p>
-            <p>Skills:</p>
-            <p>Used: </p>
+            <p>A sample blog made using position statements</p>
+            <p>Skills: CSS positioning</p>
+            <p>Used: HTML, CSS</p>
           </div>
         </section>
       </section>
     </section>
   <!-- Projects end -->
+  <!-- Game start -->
+  <section class='game-container'>
+    <section id='gamePlay' class='game-header'>
+      <h3 class='game-trigger'>Rock, paper, scissors?</h3>
+    </section>
+    <section id='hider' class='hide'>
+      <section id='game' class='game'>
+        <form name='RPS'>
+          <label for="choice">Enter your choice below:</label>
+          <input type="text" name="choice" id="choice">
+          <button type='submit'>Play</button>
+          <!-- make the form -->
+        </form>
+        <section class='play-area'>
+          <!-- Make this area black to the right side to load the game on -->
+        </section>
+      </section>
+    </section>
+  </section>
+  <script src="./assets/scripts/RPS.js"></script>
+  <!-- Game end -->
   </main>
   <footer class='roboto'>
   <!-- Contact start -->
@@ -118,5 +139,6 @@
     <p class='copyright'>&copy; Max Wykes 2022</p>
     <!-- Contact end -->
   </footer>
+  <script src="./assets/scripts/app.js"></script>
 </body>
 </html>
